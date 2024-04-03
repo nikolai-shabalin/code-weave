@@ -4,6 +4,12 @@
   line-height: 32px;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 .app {
   width: fit-content;
   max-width: 960px;
@@ -32,15 +38,4 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-}
-
-.test-1 {
-  width: fit-content;
-  padding: 16px;
-  border: 1px solid lavender;
-  border-radius: 8px;
-}
-
-article:not(:has(img)) {
-  background-color: #f0f0f0;
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест номер 1</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <style>
+    select {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid lavender;
+      border-radius: 4px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <form class="form" action="">
+      <label for="selector">Введите селектор:</label>
+      <input id="selector" type="search" placeholder="селектор">
+    </form>
+
+    <div>
+      <h2>Задача</h2>
+      <p>Введите в поле селектор, который сделает весь <code>&lt;select&gt;</code> зелёного цвета только когда выбрана опция "Картошечка". По умолчанию или если выбрана любая другая опция <code>&lt;select&gt;</code> заново становится белого цвета.</p>
+    </div>
+
+    <div class="examples">
+      <select>
+        <option value="fruit">Фрукты</option>
+        <option value="vegetables">Овощи</option>
+        <option value="potato">Картошечка</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="scripts/app.js" defer></script>
+</body>
+</html>

@@ -1,25 +1,30 @@
 const form = document.querySelector('input');
-let previousElements = [];
 
 form.addEventListener('input', event => {
   event.preventDefault();
-
-  previousElements.forEach(element => {
-    element.style.backgroundColor = '';
-  });
-
   const userSelector = event.target.value;
 
   if (!userSelector.trim()) {
     return;
   }
 
-  // Выбор новых элементов и сохранение их в previousElements
-  previousElements = Array.from(document.querySelectorAll(userSelector));
+  if (userSelector) {
+    // Проверяем, существует ли уже элемент <style> с идентификатором 'userStyle'
+    let oldStyle = document.getElementById('userStyle');
+    if (oldStyle) {
+      // Если существует, удаляем его
+      oldStyle.remove();
+    }
 
-  if (previousElements.length) {
-    previousElements.forEach(element => {
-      element.style.backgroundColor = '#90EE90';
-    });
+    let style = document.createElement('style');
+
+    // Добавляем в него CSS-правило
+    style.innerHTML = `${userSelector} { background-color: #90EE90; }`;
+
+    // Добавляем уникальный идентификатор
+    style.id = 'userStyle';
+
+    // Добавляем элемент <style> в <head> документа
+    document.head.appendChild(style);
   }
 });
