@@ -1,0 +1,46 @@
+:root {
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.app {
+  width: fit-content;
+  max-width: 960px;
+  margin-inline: auto;
+  margin-block: 32px;
+  display: grid;
+  gap: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input {
+  font-size: 32px;
+  line-height: 48px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 8px;
+  border: 1px solid lavender;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.test-1 {
+  width: fit-content;
+  padding: 16px;
+  border: 1px solid lavender;
+  border-radius: 8px;
+}
+
+article:not(:has(img)) {
+  background-color: #f0f0f0;
+}
