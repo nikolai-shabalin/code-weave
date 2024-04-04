@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест номер 1</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <style>
+    .container {
+      border: 1px solid #000;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <form class="form" action="">
+      <label for="selector">Введите селектор:</label>
+      <input id="selector" type="search" placeholder="селектор">
+    </form>
+
+    <div>
+      <h2>Задача</h2>
+      <p>Цель: Ваша задача написать CSS селектор, который изменяет стиль контейнера на основе сложной структуры его содержимого.</p>
+      <h3>Условия</h3>
+      <ul>
+        <li>Вы имеете дело с веб-страницей, на которой есть несколько контейнеров с классом <code>.container</code>. Внутри этих контейнеров есть элементы с классами
+          <code>.target</code>, <code>.sibling</code>, и <code>.descendant</code>.</li>
+        <li>Вам нужно применить стиль к тем контейнерам <code>.container</code>, внутри которых существует элемент
+        <code>.target</code>, после которого следует любое количество других элементов, и затем элемент с классом
+      <code>.sibling</code>, который в свою очередь содержит элемент с классом <code>.descendant</code>.</li>
+        <li>Селектор должен окрасить <b>только первый</b> блок в зелёный цвет.</li>
+      </ul>
+    </div>
+
+    <div class="examples">
+      <div class="container">
+        <div class="target">Цель</div>
+        <div class="sibling">
+          Родственник
+          <div class="descendant">Потомок</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="target">Цель</div>
+        <div class="sibling">
+          Родственник
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="sibling">Родственник</div>
+        <div class="target">
+          Цель
+          <div class="descendant">Потомок</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/app.js?v=1" defer></script>
+</body>
+</html>
