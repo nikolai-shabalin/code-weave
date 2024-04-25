@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="hypermail 3.0.0, see https://github.com/hypermail-project/hypermail/" />
+<title>RE: [css-grid] Layout algo question - why keep an infinity around  in the  fourth phase? from Peter Salas on 2014-03-21 (www-style@w3.org from March 2014)</title>
+<meta name="Author" content="Peter Salas (psalas&#x40;&#0109;&#0105;&#0099;&#0114;&#0111;&#0115;&#0111;&#0102;&#0116;&#0046;&#0099;&#0111;&#0109;)" />
+<meta name="Subject" content="RE: [css-grid] Layout algo question - why keep an infinity around  in the  fourth phase?" />
+<meta name="Date" content="2014-03-21" />
+<link rel="stylesheet" title="Normal view" href="/assets/styles/public.css" />
+<link rel="help" href="/Help/" />
+<link rel="start" href="../" title="www-style@w3.org archives" />
+<script defer="defer" src="/assets/js/archives.js"></script>
+</head>
+<body class="message">
+<header class="head">
+<nav class="breadcrumb" id="upper">
+  <ul>
+    <li><a href="https://www.w3.org/">W3C home</a></li>
+    <li><a href="/">Mailing lists</a></li>
+    <li><a href="../../">Public</a></li>
+    <li><a href="../" rel="start">www-style@w3.org</a></li>
+    <li><a href="./" rel="contents">March 2014</a></li>
+  </ul>
+</nav>
+<h1>RE: [css-grid] Layout algo question - why keep an infinity around  in the  fourth phase?</h1>
+<!-- received="Fri Mar 21 01:53:37 2014" -->
+<!-- isoreceived="20140321015337" -->
+<!-- sent="Fri, 21 Mar 2014 01:53:05 +0000" -->
+<!-- isosent="20140321015305" -->
+<!-- name="Peter Salas" -->
+<!-- email="psalas&#x40;&#0109;&#0105;&#0099;&#0114;&#0111;&#0115;&#0111;&#0102;&#0116;&#0046;&#0099;&#0111;&#0109;" -->
+<!-- subject="RE: [css-grid] Layout algo question - why keep an infinity around  in the  fourth phase?" -->
+<!-- id="465aa5c8e86645499f86d22ed7672cfc@BL2PR03MB241.namprd03.prod.outlook.com" -->
+<!-- charset="utf-8" -->
+<!-- inreplyto="CAAWBYDCDBjV+ik-aHXZ-jwB4oiwo6bdPFqAcwM34SvNDm6JmRg&#64;mail.gmail.com" -->
+<!-- expires="-1" -->
+<nav id="navbar">
+<ul class="links hmenu_container">
+<li>
+<span class="heading">This message</span>: <ul class="hmenu"><li><a href="#start" id="options1">Message body</a></li>
+<li><a href="mailto:www-style&#x40;&#0119;&#0051;&#0046;&#0111;&#0114;&#0103;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">Respond</a></li>
+<li><a href="#options3">More options</a></li>
+</ul></li>
+<li>
+<span class="heading">Related messages</span>: <ul class="hmenu">
+<!-- unext="start" -->
+<li><a href="0501.html">Next message</a></li>
+<li><a href="0499.html">Previous message</a></li>
+<li><a href="0426.html">In reply to</a></li>
+<!-- unextthread="start" -->
+<li><a href="0512.html">Next in thread</a></li>
+<li><a href="#replies">Replies</a></li>
+<!-- ureply="end" -->
+</ul></li>
+</ul>
+</nav>
+</header>
+<!-- body="start" -->
+<main class="mail">
+<ul class="headers" aria-label="message headers">
+<li><span class="from">
+<span class="heading">From</span>: Peter Salas &lt;<a href="mailto:psalas&#x40;&#0109;&#0105;&#0099;&#0114;&#0111;&#0115;&#0111;&#0102;&#0116;&#0046;&#0099;&#0111;&#0109;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">psalas&#x40;&#0109;&#0105;&#0099;&#0114;&#0111;&#0115;&#0111;&#0102;&#0116;&#0046;&#0099;&#0111;&#0109;</a>&gt;
+</span></li>
+<li><span class="date"><span class="heading">Date</span>: Fri, 21 Mar 2014 01:53:05 +0000</span></li>
+<li><span class="to"><span class="heading">To</span>: Tab Atkins Jr. &lt;<a href="mailto:jackalmage&#x40;&#0103;&#0109;&#0097;&#0105;&#0108;&#0046;&#0099;&#0111;&#0109;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">jackalmage&#x40;&#0103;&#0109;&#0097;&#0105;&#0108;&#0046;&#0099;&#0111;&#0109;</a>&gt;, www-style list &lt;<a href="mailto:www-style&#x40;&#0119;&#0051;&#0046;&#0111;&#0114;&#0103;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">www-style&#x40;&#0119;&#0051;&#0046;&#0111;&#0114;&#0103;</a>&gt;
+</span></li>
+<li><span class="message-id"><span class="heading">Message-ID</span>: &lt;465aa5c8e86645499f86d22ed7672cfc&#x40;&#0066;&#0076;&#0050;&#0080;&#0082;&#0048;&#0051;&#0077;&#0066;&#0050;&#0052;&#0049;&#0046;&#0110;&#0097;&#0109;&#0112;&#0114;&#0100;&#0048;&#0051;&#0046;&#0112;&#0114;&#0111;&#0100;&#0046;&#0111;&#0117;&#0116;&#0108;&#0111;&#0111;&#0107;&#0046;&#0099;&#0111;&#0109;&gt;
+</span></li>
+</ul>
+<pre id="start" class="body">
+Tab Atkins Jr. &lt;<a href="mailto:jackalmage&#x40;&#0103;&#0109;&#0097;&#0105;&#0108;&#0046;&#0099;&#0111;&#0109;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">jackalmage&#x40;&#0103;&#0109;&#0097;&#0105;&#0108;&#0046;&#0099;&#0111;&#0109;</a>&gt; wrote:
+&gt; The Grid layout &quot;figure out how wide min-content and max-content tracks
+&gt; are&quot; step is repeated once for each set of items with a given span, and in
+&gt; each iteration, goes through 4 phases.
+&gt; 
+&gt; The first time a track goes through the 3rd phase, if its &quot;max&quot; was infinite
+&gt; (caused by a max-content size), it gets corrected to a finite value.  However,
+&gt; the layout algorithm currently states that in the 4th phase of the same
+&gt; iteration, it has to be treated as if it was still infinite.
+&gt; 
+&gt; Why does this occur?
+
+You're wondering about the existence of &quot;SpanGroupInWhichMaxBreadthWasMadeFinite&quot; in the Microsoft algorithm, right?
+
+Consider the following case:
+
+Two &quot;auto&quot; tracks (i.e. &quot;minmax(min-content, max-content) minmax(min-content, max-content)&quot;)
+Item 1 is in track 1, and has min-content = max-content = 10.
+Item 2 spans tracks 1 and 2, and has min-content = 30, max-content = 100.
+
+After resolving min-content/max-content for the first item, we have this.
+
+track 1:
+ used breadth = 10
+ max breadth = 10
+
+track 2:
+ used breadth = 0
+ max breadth = infinity
+
+Then we resolve min-content/max-content for the second item.
+
+Phase 1 sets the used breadth of track 2 to 20 so that the two tracks' used breadths sum to 30.
+Phase 2 does nothing because there are no relevant tracks.
+Phase 3 sets the max breadth of track 2 to 20 so that the two tracks' max breadths sum to 30.
+In phase 4, we need to grow the sum of the max breadths by 70 to accommodate item 2.  Two options are:
+ 1. Grow each track's max breadth equally, and end up with max breadths = [45, 55].
+ 2. Grow only the second track's max breadth, and end up with max breadths = [10, 90].
+
+By not considering the just-set max breadth as a constraint during space distribution (i.e. by treating it as infinity), we get the second result, which we considered a better result because the first track remains sized exactly to the first item.  In this example[1] which uses the IE10 syntax, each of the three elements (item 1, item 2, and the grid) is no bigger than it needs to be.
+
+Does that make sense?
+
+Peter
+
+[1] <a href="http://jsfiddle.net/84Pz9/">http://jsfiddle.net/84Pz9/</a>
+</pre>
+<p class="received"><span class="heading">Received on</span> Friday, 21 March 2014 01:53:37 UTC</p>
+</main>
+<!-- body="end" -->
+<footer class="foot">
+<nav id="navbarfoot">
+<ul class="links hmenu_container">
+<li><span class="heading">This message</span>: <span class="message_body"><a href="#start">Message body</a></span></li>
+<!-- lnext="start" -->
+<li><span class="heading">Next message</span>: <a href="0501.html">James Clark: "Re: [css-text] Control characters"</a></li>
+<li><span class="heading">Previous message</span>: <a href="0499.html">Sylvain Galineau: "[css-animations] What is the format of the key string passed to  CSSKeyframesRule.findRule/deleteRule ?"</a></li>
+<li><span class="heading">In reply to</span>: <a href="0426.html">Tab Atkins Jr.: "[css-grid] Layout algo question - why keep an infinity around in the  fourth phase?"</a></li>
+<!-- lnextthread="start" -->
+<li><span class="heading">Next in thread</span>: <a href="0512.html">Tab Atkins Jr.: "Re: [css-grid] Layout algo question - why keep an infinity around in  the fourth phase?"</a></li>
+<li id="replies"><span class="heading">Reply</span>: <a href="0512.html">Tab Atkins Jr.: "Re: [css-grid] Layout algo question - why keep an infinity around in  the fourth phase?"</a></li>
+<!-- lreply="end" -->
+</ul>
+<ul class="links hmenu_container">
+<li id="options3"><span class="heading">Mail actions</span>: <ul class="hmenu"><li><a href="mailto:www-style&#x40;&#0119;&#0051;&#0046;&#0111;&#0114;&#0103;?Subject=RE%3A%20%5Bcss-grid%5D%20Layout%20algo%20question%20-%20why%20keep%20an%20infinity%20around%20%20in%20the%20%20fourth%20phase%3F&amp;In-Reply-To=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E&amp;References=%3C465aa5c8e86645499f86d22ed7672cfc%40BL2PR03MB241.namprd03.prod.outlook.com%3E">respond to this message</a></li>
+<li><a href="mailto:www-style&#x40;&#0119;&#0051;&#0046;&#0111;&#0114;&#0103;">mail a new topic</a></li></ul></li>
+<li><span class="heading">Contemporary messages sorted</span>: <ul class="hmenu"><li><a href="index.html#msg500">by date</a></li>
+<li><a href="thread.html#msg500">by thread</a></li>
+<li><a href="subject.html#msg500">by subject</a></li>
+<li><a href="author.html#msg500">by author</a></li>
+</ul></li>
+<li><span class="heading">Help</span>: <ul class="hmenu">
+    <li><a href="/Help/" rel="help">how to use the archives</a></li>
+    <li><a href="https://www.w3.org/Search/Mail/Public/search?type-index=www-style&amp;index-type=t">search the archives</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<!-- trailer="footer" -->
+<p class="colophon">
+This archive was generated by <a href="https://github.com/hypermail-project/hypermail/">hypermail 3.0.0</a>: Saturday, 15 July 2023 03:17:01 UTC
+</p>
+</footer>
+</body>
+</html>
