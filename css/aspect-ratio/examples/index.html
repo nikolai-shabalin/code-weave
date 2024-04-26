@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>aspect-ratio</title>
+  <style>
+    .element-1 {
+      background-color: rebeccapurple;
+      inline-size: 300px;
+      block-size: 200px;
+      aspect-ratio: 1 / 1; /* не работает */
+    }
+
+    .flex {
+      display: flex;
+      gap: 2rem;
+      /*align-items: start;*/ /* включить, чтобы заработал aspect-ratio */
+
+      div {
+        background: red;
+        color: white;
+        width: 100px;
+        place-items: center;
+        display: grid;
+      }
+
+      div:nth-child(1) {
+        aspect-ratio: 1 / 1;
+      }
+      div:nth-child(2) {
+        aspect-ratio: 3 / 2;
+      }
+      div:nth-child(3) {
+        aspect-ratio: 1 / 2;
+      }
+    }
+
+    .text {
+      background: orange;
+      aspect-ratio: 16 / 9;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="element-1"></div>
+
+  <div class="flex">
+    <div class="flex-child"> 1 / 1</div>
+    <div class="flex-child">3 / 2</div>
+    <div class="flex-child">1 / 2</div>
+  </div>
+
+<div class="text">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae eveniet molestiae neque nobis quae, voluptatibus! Consequuntur dolor, recusandae! Aliquid amet corporis, cumque enim et ex illum obcaecati quidem sapiente.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae eveniet molestiae neque nobis quae, voluptatibus! Consequuntur dolor, recusandae! Aliquid amet corporis, cumque enim et ex illum obcaecati quidem sapiente.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae eveniet molestiae neque nobis quae, voluptatibus! Consequuntur dolor, recusandae! Aliquid amet corporis, cumque enim et ex illum obcaecati quidem sapiente.</p>
+</div>
+</body>
+</html>
