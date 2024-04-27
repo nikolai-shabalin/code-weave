@@ -33,8 +33,9 @@
 
 Код
 
-    <img src="access-city.png" alt="Ваш доступ в город.">.
-
+```html
+<img src="access-city.png" alt="Ваш доступ в город.">.
+```
 
 ### Использование CSS3
 
@@ -55,35 +56,37 @@
 
 Код: HTML
 
-    <div class="tagline"><span>Ваш выход в город</span></div>
-
+```html
+<div class="tagline"><span>Ваш выход в город</span></div>
+```
 
 Код: CSS
 
-    @font-face {
-      font-family: 'Harabara Hand';
-      src: url('harabarahand.ttf') format('truetype');
-    }
-    
-    .background {
-      background-color: #FFF;
-      padding: 2em;
-    }
-    .tagline {
-      font-family: 'Harabara Hand', cursive;
-      text-transform: lowercase;
-      color: #226C8E;
-      font-size: 1.5em;
-      межбуквенный интервал: -1px;
-      padding-left: 1em;
-      background-color: #DDD9D6;
-      box-shadow: 0 2px 4px rgba(0,0,0,.5);
-    }
-    .tagline span {
-      display: inline-block;
-      transform: rotate(-10deg);
-    }
+```css
+@font-face {
+  font-family: 'Harabara Hand';
+  src: url('harabarahand.ttf') format('truetype');
+}
 
+.background {
+  background-color: #FFF;
+  padding: 2em;
+}
+.tagline {
+  font-family: 'Harabara Hand', cursive;
+  text-transform: lowercase;
+  color: #226C8E;
+  font-size: 1.5em;
+  межбуквенный интервал: -1px;
+  padding-left: 1em;
+  background-color: #DDD9D6;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+.tagline span {
+  display: inline-block;
+  transform: rotate(-10deg);
+}
+```
 
 Примечание
 
@@ -100,8 +103,9 @@
 
 Код
 
-    <img src="wai.png" alt="Инициатива по обеспечению веб-доступности">.
-
+```html
+<img src="wai.png" alt="Инициатива по обеспечению веб-доступности">.
+```
 
 Примечание
 
@@ -127,10 +131,11 @@
 
 Код
 
-    <img
-      src="0dot3333recurring.png"
-      alt="0.3333 recurring. (Повторяемость обозначена линией над '3' в четвертом десятичном разряде)">
-
+```html
+<img
+  src="0dot3333recurring.png"
+  alt="0.3333 recurring. (Повторяемость обозначена линией над '3' в четвертом десятичном разряде)">
+```
 
 ### Использование MathML
 
@@ -156,13 +161,14 @@
 
 Код
 
-    <math>
-      <mstack stackalign="right">
-        <msline length="1"/>
-        <mn> 0.3333 </mn>
-      </mstack>
-    </math>
-
+```svg
+<math>
+  <mstack stackalign="right">
+    <msline length="1"/>
+    <mn> 0.3333 </mn>
+  </mstack>
+</math>
+``````
 
 Примечание
 

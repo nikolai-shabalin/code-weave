@@ -23,22 +23,23 @@
 
 Код
 
-    <img src="orgchart.png"
-         alt="Совет директоров и связанный с ним персонал: "
-         usemap="#Map">
-    <map id="Map" name="Map">
-      <area shape="rect"
-            coords="176,14,323,58"
-            href="[...]"
-            alt="Дэйви Джонс: Председатель">
-      [...]
-      <area shape="rect"
-            coords="6,138,155,182"
-            href="[...]"
-            alt="Гарри Х Браун: Директор по маркетингу (подчиняется председателю)">
-      [...]
-    </map>
-
+```html
+<img src="orgchart.png"
+     alt="Совет директоров и связанный с ним персонал: "
+     usemap="#Map">
+<map id="Map" name="Map">
+  <area shape="rect"
+        coords="176,14,323,58"
+        href="[...]"
+        alt="Дэйви Джонс: Председатель">
+  [...]
+  <area shape="rect"
+        coords="6,138,155,182"
+        href="[...]"
+        alt="Гарри Х Браун: Директор по маркетингу (подчиняется председателю)">
+  [...]
+</map>
+```
 
 [Полный код примера карты изображений](https://www.w3.org/WAI/tutorials/images/examples/imagemap/)
 

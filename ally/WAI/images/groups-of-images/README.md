@@ -26,13 +26,14 @@
 
 Код
 
-    Рейтинг:
-    <img src="star-full.jpg" alt="3,5 из 5 звезд">.
-    <img src="star-full.jpg" alt="">
-    <img src="star-full.jpg" alt="">
-    <img src="star-half.jpg" alt="">
-    <img src="star-empty.jpg" alt="">
-
+```html
+Рейтинг:
+<img src="star-full.jpg" alt="3,5 из 5 звезд">.
+<img src="star-full.jpg" alt="">
+<img src="star-full.jpg" alt="">
+<img src="star-half.jpg" alt="">
+<img src="star-empty.jpg" alt="">
+```
 
 **Пример 2:** Коллекция изображений
 -------------------------------------
@@ -59,32 +60,33 @@
 
 Код
 
-    <figure role="group" aria-labelledby="fig1">
-      <figcaption id="fig1">.
-        Замок сквозь века: 1423, 1756 и 1936 годы соответственно.
-      </figcaption
-    
-    
-      <figure role="group" aria-labelledby="fig11">
-        <img src="castle-etching.jpg"
-          alt="У замка одна башня и высокая стена вокруг него.">
-        <figcaption id="fig11">Уголь на дереве. Аноним, около 1423 г.</figcaption>.
-      </figure>
-    
-      <figure role="group" aria-labelledby="fig12">
-        <img src="castle-painting.jpg"
-          alt="У замка теперь две башни и две стены.">
-        <figcaption id="fig12">Краска на масляной основе на холсте. Элоиза Фолкнер, 1756 г.</figcaption
-      </figure>
-    
-      <figure role="group" aria-labelledby="fig13">
-        <img src="castle-fluro.jpg"
-          alt="Замок лежит в руинах, от первоначальной башни осталась лишь одна часть.">
-        <figcaption id="fig13">Фотография из фильма. <span lang="fr">Séraphin Médéric Mieusement</span>, 1936.</figcaption>.
-      </figure>
-    
-    </figure>
+```html
+<figure role="group" aria-labelledby="fig1">
+  <figcaption id="fig1">.
+    Замок сквозь века: 1423, 1756 и 1936 годы соответственно.
+  </figcaption
 
+
+  <figure role="group" aria-labelledby="fig11">
+    <img src="castle-etching.jpg"
+      alt="У замка одна башня и высокая стена вокруг него.">
+    <figcaption id="fig11">Уголь на дереве. Аноним, около 1423 г.</figcaption>.
+  </figure>
+
+  <figure role="group" aria-labelledby="fig12">
+    <img src="castle-painting.jpg"
+      alt="У замка теперь две башни и две стены.">
+    <figcaption id="fig12">Краска на масляной основе на холсте. Элоиза Фолкнер, 1756 г.</figcaption
+  </figure>
+
+  <figure role="group" aria-labelledby="fig13">
+    <img src="castle-fluro.jpg"
+      alt="Замок лежит в руинах, от первоначальной башни осталась лишь одна часть.">
+    <figcaption id="fig13">Фотография из фильма. <span lang="fr">Séraphin Médéric Mieusement</span>, 1936.</figcaption>.
+  </figure>
+
+</figure>
+```
 
 Связанные ресурсы WCAG
 
