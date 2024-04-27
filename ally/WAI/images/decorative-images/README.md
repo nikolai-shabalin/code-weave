@@ -36,16 +36,17 @@
 ![](images/topinfo_bg.png)
 
 Код
-
-    <img src="topinfo_bg.png" alt="">.
-
+```html
+<img src="topinfo_bg.png" alt="">.
+```
 
 Программы чтения с экрана также позволяют использовать WAI-ARIA для скрытия элементов с помощью `role="presentation"`. Однако в настоящее время эта возможность не так широко поддерживается, как использование нулевого атрибута `alt`.
 
 Код
 
-    <img src="topinfo_bg.png" role="presentation">
-
+```html
+<img src="topinfo_bg.png" role="presentation">
+```
 
 Примечание
 
@@ -62,11 +63,12 @@
 
 Код
 
-    <a href="crocuspage.html">
-      <img src="crocus.jpg" alt="">
-      <strong>Луковицы крокуса</strong>.
-    </a>
-
+```html
+<a href="crocuspage.html">
+  <img src="crocus.jpg" alt="">
+  <strong>Луковицы крокуса</strong>.
+</a>
+```
 
 **Пример 3:** Изображение с прилегающей текстовой альтернативой
 ---------------------------------------------------
@@ -79,11 +81,12 @@
 
 Код
 
-    <p>
-      <img src="sleepingdog.jpg" alt="">
-      <strong>Спящая собака:</strong> ...
-    </p>
-
+```html
+<p>
+  <img src="sleepingdog.jpg" alt="">
+  <strong>Спящая собака:</strong> ...
+</p>
+```
 
 **Пример 4:** Изображение используется для создания атмосферы (привлекает внимание)
 --------------------------------------------------
@@ -96,8 +99,9 @@
 
 Код
 
-    <img src="tropical.jpg" alt="">
-
+```html
+<img src="tropical.jpg" alt="">
+```
 
 Примечание
 
