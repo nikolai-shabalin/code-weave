@@ -1,7 +1,7 @@
 Группы изображений
 ================
 
-в разделе [Самоучитель по изображениям](/WAI/tutorials/images/)
+в разделе [Самоучитель по изображениям](https://www.w3.org/WAI/tutorials/images/)
 
 Обзор
 --------
@@ -96,14 +96,14 @@
 * [G196: Использование текстовой альтернативы на одном элементе в группе изображений, которая описывает все элементы в группе](https://www.w3.org/TR/WCAG20-TECHS/G196)
 * [H67: Использование нулевого текста alt и отсутствие атрибута title в элементах img для изображений, которые AT должен игнорировать](https://www.w3.org/TR/WCAG20-TECHS/H67)
 
-* [Предыдущий: Сложные изображения](/WAI/tutorials/images/complex/)
-* [Следующая: Карты изображений](/WAI/tutorials/images/imagemap/)
+* [Предыдущий: Сложные изображения](https://www.w3.org/WAI/tutorials/images/complex/)
+* [Следующая: Карты изображений](https://www.w3.org/WAI/tutorials/images/imagemap/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, делитесь своими идеями, предложениями или комментариями по электронной почте в публично архивируемом списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Groups%20of%20Images&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Groups%20of%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/groups.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/groups/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Groups%20of%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/groups.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/groups/)
 
 [Вернуться к началу](#top)

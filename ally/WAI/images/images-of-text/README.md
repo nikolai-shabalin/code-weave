@@ -1,7 +1,7 @@
 Изображения текста
 ==============
 
-в [Самоучитель по изображениям](/WAI/tutorials/images/)
+в [Самоучитель по изображениям](https://www.w3.org/WAI/tutorials/images/)
 
 Резюме
 -------
@@ -107,7 +107,7 @@
 
 1.  На изображения, используемые в качестве логотипов, не распространяются некоторые требования доступности, которые применяются к другим изображениям текста. Например, нет требований к минимальному цветовому контрасту и размеру текста.
 
-2.  Если бы этот логотип был связан, то он стал бы функциональным изображением. См. раздел [Функциональные изображения: изображение, используемое отдельно в качестве связанного логотипа] (/WAI/tutorials/images/functional/#image-used-alone-as-a-linked-logo).
+2.  Если бы этот логотип был связан, то он стал бы функциональным изображением. См. раздел [Функциональные изображения: изображение, используемое отдельно в качестве связанного логотипа] (https://www.w3.org/WAI/tutorials/images/functional/#image-used-alone-as-a-linked-logo).
 
 
 **Пример 3:** Математические выражения
@@ -177,14 +177,14 @@
 * [C22: Использование CSS для управления визуальным представлением текста](https://www.w3.org/TR/WCAG20-TECHS/C22)
 * [G94: Предоставление краткой текстовой альтернативы для нетекстового контента, которая служит той же цели и представляет ту же информацию, что и нетекстовый контент](https://www.w3.org/TR/WCAG20-TECHS/G94)
 
-* [Предыдущий: Функциональные изображения](/WAI/tutorials/images/functional/)
-* [Следующая: Сложные изображения](/WAI/tutorials/images/complex/)
+* [Предыдущий: Функциональные изображения](https://www.w3.org/WAI/tutorials/images/functional/)
+* [Следующая: Сложные изображения](https://www.w3.org/WAI/tutorials/images/complex/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, поделитесь своими идеями, предложениями или комментариями по электронной почте в общедоступном списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Images%20of%20Text&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Images%20of%20Text&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/textual.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/textual/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Images%20of%20Text&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/textual.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/textual/)
 
 [Вернуться к началу](#top)

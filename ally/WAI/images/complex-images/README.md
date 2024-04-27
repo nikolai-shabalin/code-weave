@@ -1,7 +1,7 @@
 Комплексные изображения
 ==============
 
-в разделе [Самоучитель по изображениям](/WAI/tutorials/images/)
+в разделе [Самоучитель по изображениям](https://www.w3.org/WAI/tutorials/images/)
 
 Обзор
 --------
@@ -41,11 +41,11 @@
 Пример
 
 ![Гистограмма, показывающая ежемесячных и общих посетителей за первый квартал 2014 года для сайтов с 1 по 3](images/chart.png)  
-[Описание изображения](/WAI/tutorials/images/examples/2014-first-qtr/)
+[Описание изображения](https://www.w3.org/WAI/tutorials/images/examples/2014-first-qtr/)
 
 Примечание
 
-Смотрите [длинное описание примера](/WAI/tutorials/images/examples/2014-first-qtr/), связанное с этим изображением.
+Смотрите [длинное описание примера](https://www.w3.org/WAI/tutorials/images/examples/2014-first-qtr/), связанное с этим изображением.
 
 Среди приведенных ниже подходов первый и четвертый делают информацию доступной для других программ, таких как веб-браузеры и поисковые системы.
 
@@ -187,14 +187,14 @@
 * [C22: Использование CSS для управления визуальным представлением текста](https://www.w3.org/TR/WCAG20-TECHS/C22)
 * [G94: Предоставление краткой текстовой альтернативы для нетекстового контента, которая служит той же цели и представляет ту же информацию, что и нетекстовый контент](https://www.w3.org/TR/WCAG20-TECHS/G94)
 
-* [Предыдущий: Изображения текста](/WAI/tutorials/images/textual/)
-* [Следующая: Группы изображений](/WAI/tutorials/images/groups/)
+* [Предыдущий: Изображения текста](https://www.w3.org/WAI/tutorials/images/textual/)
+* [Следующая: Группы изображений](https://www.w3.org/WAI/tutorials/images/groups/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, делитесь своими идеями, предложениями или комментариями по электронной почте в публично архивируемом списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Complex%20Images&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Complex%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/complex.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/complex/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Complex%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/complex.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/complex/)
 
 [Вернуться к началу](#top)

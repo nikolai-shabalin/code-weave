@@ -1,7 +1,7 @@
 Функциональные изображения
 =================
 
-в разделе [Самоучитель по изображениям](/WAI/tutorials/images/)
+в разделе [Самоучитель по изображениям](https://www.w3.org/WAI/tutorials/images/)
 
 Обзор
 --------
@@ -77,7 +77,7 @@
 
 Примечание
 
-Этот прием часто используется с иконками для обозначения различных форматов файлов, таких как AVI, ODF, MP3, PDF, Word и многих других. В этом случае текстовая альтернатива должна одинаково передавать формат, представленный каждой иконкой, см. раздел [Информативные изображения](/WAI/tutorials/images/informative/#images-conveying-file-format).
+Этот прием часто используется с иконками для обозначения различных форматов файлов, таких как AVI, ODF, MP3, PDF, Word и многих других. В этом случае текстовая альтернатива должна одинаково передавать формат, представленный каждой иконкой, см. раздел [Информативные изображения](https://www.w3.org/WAI/tutorials/images/informative/#images-conveying-file-format).
 
 **Пример 4:** Отдельное изображение пиктограммы, выполняющее определенную функцию
 ---------------------------------------------------------
@@ -118,14 +118,14 @@
 * [H36: Использование атрибутов alt на изображениях, используемых в качестве кнопок отправки](https://www.w3.org/TR/WCAG20-TECHS/H36)
 * [H37: Использование атрибутов alt на элементах img](https://www.w3.org/TR/WCAG20-TECHS/H37)
 
-* [Предыдущая: Декоративные изображения](/WAI/tutorials/images/decorative/)
-* [Следующая: Изображения текста](/WAI/tutorials/images/textual/)
+* [Предыдущая: Декоративные изображения](https://www.w3.org/WAI/tutorials/images/decorative/)
+* [Следующая: Изображения текста](https://www.w3.org/WAI/tutorials/images/textual/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, поделитесь своими идеями, предложениями или комментариями по электронной почте в общедоступном списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Functional%20Images&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Functional%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/functional.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/functional/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Functional%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/functional.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/functional/)
 
 [Вернуться к началу](#top)

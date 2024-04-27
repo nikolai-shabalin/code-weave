@@ -1,7 +1,7 @@
 Декоративные изображения
 =================
 
-в разделе [Самоучитель по изображениям](/WAI/tutorials/images/)
+в разделе [Самоучитель по изображениям](https://www.w3.org/WAI/tutorials/images/)
 
 Обзор
 --------
@@ -10,7 +10,7 @@
 
 В таких случаях следует указывать нулевой (пустой) текст `alt` (`alt=""`), чтобы его могли игнорировать вспомогательные технологии, например, программы чтения с экрана. Текстовые значения для этих типов изображений добавят звуковой беспорядок в вывод программы чтения с экрана или могут отвлекать пользователей, если тема отличается от соседнего текста. Отсутствие атрибута `alt` также нежелательно, поскольку, если он не указан, некоторые программы чтения с экрана вместо него сообщают имя файла изображения.
 
-Вопрос о том, считать ли изображение декоративным или [информативным](/WAI/tutorials/images/informative/), решает только автор, исходя из причины включения изображения на страницу. Изображения могут быть декоративными, если они:
+Вопрос о том, считать ли изображение декоративным или [информативным](https://www.w3.org/WAI/tutorials/images/informative/), решает только автор, исходя из причины включения изображения на страницу. Изображения могут быть декоративными, если они:
 
 * Визуальный стиль, такой как границы, разделители и углы;
 * Дополняют текст ссылки, чтобы улучшить его внешний вид или увеличить область клика;
@@ -101,7 +101,7 @@
 
 Примечание
 
-Если целью этого изображения является идентификация растения или передача другой информации, а не просто улучшение внешнего вида страницы, то его, вероятно, следует рассматривать как [информативное](/WAI/tutorials/images/informative/). Автор определяет цель использования изображения.
+Если целью этого изображения является идентификация растения или передача другой информации, а не просто улучшение внешнего вида страницы, то его, вероятно, следует рассматривать как [информативное](https://www.w3.org/WAI/tutorials/images/informative/). Автор определяет цель использования изображения.
 
 Связанные ресурсы WCAG
 
@@ -112,14 +112,14 @@
 * [H2: Объединение соседних ссылок на изображение и текст для одного и того же ресурса](https://www.w3.org/TR/WCAG20-TECHS/H2)
 * [H67: Использование нулевого текста alt и отсутствие атрибута title в элементах img для изображений, которые AT должны игнорировать](https://www.w3.org/TR/WCAG20-TECHS/H67)
 
-* [Предыдущий: Информативные изображения](/WAI/tutorials/images/informative/)
-* [Следующая: Функциональные изображения](/WAI/tutorials/images/functional/)
+* [Предыдущий: Информативные изображения](https://www.w3.org/WAI/tutorials/images/informative/)
+* [Следующая: Функциональные изображения](https://www.w3.org/WAI/tutorials/images/functional/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, поделитесь своими идеями, предложениями или комментариями по электронной почте в общедоступном списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Decorative%20Images&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Decorative%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/decorative.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/decorative/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Decorative%20Images&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/decorative.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/decorative/)
 
 [Вернуться к началу](#top)

@@ -40,7 +40,7 @@
     </map>
 
 
-[Полный код примера карты изображений](/WAI/tutorials/images/examples/imagemap/)
+[Полный код примера карты изображений](https://www.w3.org/WAI/tutorials/images/examples/imagemap/)
 
 На момент написания статьи браузеры реализовывали карты изображений по-разному; см. [эту ошибку HTML](https://lists.w3.org/Archives/Public/public-html-bugzilla/2015Jan/0020.html). Чтобы приспособиться к различным реализациям, помните, что:
 
@@ -61,14 +61,14 @@
 * [G196: Использование текстовой альтернативы на одном элементе в группе изображений, которая описывает все элементы в группе](https://www.w3.org/TR/WCAG20-TECHS/G196)
 * [H67: Использование нулевого текста alt и отсутствие атрибута title в элементах img для изображений, которые AT должен игнорировать](https://www.w3.org/TR/WCAG20-TECHS/H67)
 
-* [Предыдущий: Группы изображений](/WAI/tutorials/images/groups/)
-* [Следующая: Дерево принятия решений по alt](/WAI/tutorials/images/decision-tree/)
+* [Предыдущий: Группы изображений](https://www.w3.org/WAI/tutorials/images/groups/)
+* [Следующая: Дерево принятия решений по alt](https://www.w3.org/WAI/tutorials/images/decision-tree/)
 
 Помогите улучшить эту страницу
 ----------------------
 
 Пожалуйста, поделитесь своими идеями, предложениями или комментариями по электронной почте в общедоступном списке [wai-eo-editors@w3.org](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Image%20Maps&body=%5Bput%20comment%20here...%5D%0A%0A) или через GitHub.
 
-[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Image%20Maps&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/imagemap.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/tutorials/images/imagemap/)
+[E-mail](mailto:wai-eo-editors@w3.org?subject=%5Ben%5D%20Image%20Maps&body=%5Bput%20comment%20here...%5D%0A%0A)[Fork & Edit on GitHub](https://github.com/w3c/wai-tutorials/edit/master-2.0/content/images/imagemap.md)[New GitHub Issue](https://github.com/w3c/wai-tutorials/issues/new?template=content-issue.yml&wai-url=https://www.w3.orghttps://www.w3.org/WAI/tutorials/images/imagemap/)
 
 [Вернуться к началу](#top)
