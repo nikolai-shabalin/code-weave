@@ -30,11 +30,11 @@
 [![W3C home](images/w3c.png)](https://www.w3.org/)
 
 Код
-
-    <a href="https://www.w3.org/">
-      <img src="w3c.png" alt="W3C home">
-    </a>
-
+```html
+<a href="https://www.w3.org/">
+  <img src="w3c.png" alt="W3C home">
+</a>
+```
 
 Примечание
 
@@ -54,10 +54,11 @@
 
 Код
 
-    <a href="https://www.w3.org/">
-      <img src="w3c.png" alt=""> Главная страница W3C
-    </a>
-
+```html
+<a href="https://www.w3.org/">
+  <img src="w3c.png" alt=""> Главная страница W3C
+</a>
+```
 
 **Пример 3:** Изображение иконки, передающее информацию в тексте ссылки
 ----------------------------------------------------------------
@@ -70,10 +71,11 @@
 
 Код
 
-    <a href="https://www.w3.org/" target="_blank">
-      Домашняя страница W3C <img src="new-window.png" alt="новое окно">.
-    </a>
-
+```html
+<a href="https://www.w3.org/" target="_blank">
+  Домашняя страница W3C <img src="new-window.png" alt="новое окно">.
+</a>
+```
 
 Примечание
 
@@ -90,10 +92,11 @@
 
 Код
 
-    <a href="javascript:print()">
-      <img src="print.png" alt="Печать этой страницы">
-    </a>
-
+```html
+<a href="javascript:print()">
+  <img src="print.png" alt="Печать этой страницы">
+</a>
+```
 
 **Пример 5:** Изображение, используемое в кнопке
 -------------------------------------
@@ -106,8 +109,9 @@
 
 Код
 
-    <input type="image" src="searchbutton.png" alt="Поиск">.
-
+```html
+<input type="image" src="searchbutton.png" alt="Поиск">.
+```
 
 Связанные ресурсы WCAG
 
