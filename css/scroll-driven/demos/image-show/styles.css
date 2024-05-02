@@ -1,0 +1,41 @@
+@keyframes show {
+  from {
+    opacity: 0;
+    clip-path: inset(45% 20% 45% 20%);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+
+.image {
+  view-timeline-name:  --page-scroll;
+  view-timeline-axis: block;
+  animation: linear show both;
+  animation-timeline:  --page-scroll;
+  animation-range: entry 10% cover 50%;
+}
+
+
+/* Общие стили */
+body {
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-inline: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin-inline: auto;
+}
