@@ -202,7 +202,6 @@ body {
 }
 ```
 
-
 ### Темизация всего сайта от выбранной опции
 
 ```html
@@ -253,8 +252,6 @@ button {
   border: 2px solid var(--line-color, currentcolor);
 }
 ```
-
-
 
 ## Можно ли использовать&
 На этот вопрос можно всегда ответить посмотрев на [caniuse](https://caniuse.com/css-has), а также обратив внимание на Baseline.
